@@ -1,0 +1,19 @@
+{
+  "name": "cypress_2_api",
+  "version": "1.0.0",
+  "description": "My first api tests with cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:dash": "cypress run --record --key 64a9f3a8-929e-4ec9-9cdc-b25a7ebb2143"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "dashboard"
+  ],
+  "author": "KChepelevich",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}
