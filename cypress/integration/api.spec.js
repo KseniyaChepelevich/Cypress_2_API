@@ -1,20 +1,6 @@
 describe("API with user", () => {
     it("Should post a new user", () => {
-        /*cy.request({
-                    method: "POST",
-                    url: "https://petstore.swagger.io/v2/user",
-                    body: {
-                        "id": 123,
-                        "username": "Test user2",
-                        "firstName": "Fedor",
-                        "lastName": "Kozlov",
-                        "email": "Kozlov@gmail.com",
-                        "password": "123",
-                        "phone": "7654321",
-                        "userStatus": 2
 
-                    }
-                })*/
         cy.createUser({
             id: 123,
             username: "Test user2",
@@ -31,21 +17,6 @@ describe("API with user", () => {
     });
 
     it("Should put updated user", () => {
-        /*cy.request({
-                method: "POST",
-                url: "https://petstore.swagger.io/v2/user",
-                body: {
-                    "id": 123,
-                    "username": "Test user3",
-                    "firstName": "Igor",
-                    "lastName": "Kozlov",
-                    "email": "KozlovI@gmail.com",
-                    "password": "123",
-                    "phone": "7654327",
-                    "userStatus": 2
-
-                }
-            })*/
 
         cy.createUser({
             id: 123,
@@ -78,21 +49,6 @@ describe("API with user", () => {
     });
 
     it("Should deleted user", () => {
-        /*cy.request({
-                method: "POST",
-                url: "https://petstore.swagger.io/v2/user",
-                body: {
-                    "id": 123,
-                    "username": "Test user4",
-                    "firstName": "I",
-                    "lastName": "K",
-                    "email": "User4@gmail.com",
-                    "password": "user",
-                    "phone": "7654327",
-                    "userStatus": 2
-
-                }
-            })*/
 
         cy.createUser({
             id: 123,
